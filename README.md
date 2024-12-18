@@ -1,0 +1,2 @@
+This is my first project under the infamous 'The Odin Project'. I have had some prior coding knowledge but for the sake of the task at hand I have just performed what is asked in the 'assignment/project'. 
+This is a simple recipe website with two of my favorite and easy to cook recipes! Anyone who sees this, feel free to copy them and make them yourselves. I highly recommend and you will not be disappointed. Unless you have a food allergy to either. If so, my condolences.
