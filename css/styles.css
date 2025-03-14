@@ -1,10 +1,85 @@
-* {
-    background-color:rgb(232, 218, 178);
-    color: rgb(221, 110, 66)
+:root {
+/* CSS HEX */
+/* --raisin-black: #201e1fff;
+--white: #ffffffff;
+--silver: #bdbbb0ff;
+--amethyst: #9d75cbff;
+--battleship-gray: #8a897cff; */
+
+/* CSS HSL */
+--raisin-black: hsla(330, 3%, 12%, 1);
+--white: hsla(0, 0%, 100%, 1);
+--silver: hsla(51, 9%, 72%, 1);
+--amethyst: hsla(268, 45%, 63%, 1);
+--battleship-gray: hsla(56, 6%, 51%, 1);
 }
-.recipeTitle {
-    text-align: center;
+
+
+/*Universal Selector(s)*/
+* {
+    background-color:var(--raisin-black);
+    color: var(--white);
+}
+
+/*Class Selectors*/
+.titleLink {
+    text-decoration: none;
 }
 .websiteTitle {
     text-align: center;
+    color: var(--amethyst);
+    border: 1px solid var(--silver);
+    border-radius: 6px;
+    display: inline;
+    padding: 5px 10px;
+}
+.titleDiv{
+    align-content: center;
+    padding-left: 500px;
+}
+
+.navBarDiv{
+    align-content: center;
+    border: 1px solid var(--silver);
+    border-radius: 6px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.navUL{
+    text-decoration: none;
+    list-style: none;
+    display: inline-flex;
+    padding: 0px;
+    margin: 3px 0px;
+}
+.navLI{
+    padding: 16px 50px;
+    border: 1px solid var(--silver);
+    border-radius: 6px;
+}
+.navLI:hover{
+    background-color: var(--battleship-gray);
+}
+.navLink{
+    text-decoration: none;
+    color: var(--amethyst);
+    border:1px solid var(--silver);
+    border-radius: 3px;
+    padding: 2px;
+}
+.pageTitle {
+    text-align: center;
+}
+.contentP{
+    text-align: center;
+}
+.footerDiv{
+    border: 1px solid var(--silver);
+}
+.footerText{
+    text-align: center;
+}
+.recipeIMG{
+    display: block;
+    margin: auto;
 }
