@@ -24,20 +24,23 @@
 /*Class Selectors*/
 .titleLink {
     text-decoration: none;
+    height: 68px;
 }
 .websiteTitle {
     text-align: center;
     color: var(--amethyst);
     border: 1px solid var(--silver);
     border-radius: 6px;
-    display: inline;
-    padding: 5px 10px;
+    display: inline-flex;
+    padding: 2px 10px;
 }
 .titleDiv{
-    align-content: center;
-    padding-left: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
 }
-
 .navBarDiv{
     align-content: center;
     border: 1px solid var(--silver);
@@ -56,6 +59,8 @@
     padding: 16px 50px;
     border: 1px solid var(--silver);
     border-radius: 6px;
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
 .navLI:hover{
     background-color: var(--battleship-gray);
@@ -69,12 +74,16 @@
 }
 .pageTitle {
     text-align: center;
+    width: 400px;
+    margin:auto;
+    background-color: transparent;
 }
 .contentP{
     text-align: center;
 }
 .footerDiv{
     border: 1px solid var(--silver);
+    margin-top: 50px;
 }
 .footerText{
     text-align: center;
@@ -82,4 +91,60 @@
 .recipeIMG{
     display: block;
     margin: auto;
+    height:280px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.contentBorder {
+    border: 1px solid var(--silver);
+    border-radius: 6px;
+    margin: 10px;
+    padding: 5px;
+}
+.ingredientsAndSteps{
+    display: flex;
+    flex:1;
+    flex-direction: row;
+    width: fit-content;
+}
+.ingredientsBorder {
+    border: 1px solid var(--silver);
+    border-radius: 6px;
+    margin: auto;
+    padding: 5px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
+.stepsBorder {
+    border: 1px solid var(--silver);
+    border-radius: 6px;
+    margin: auto;
+    padding: 5px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
+.imageBorder {
+    border: 1px solid var(--amethyst);
+    border-radius: 25%;
+    margin: 10px auto;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
+.contentBorder h4{
+    margin:0px;
+    text-align: center;
+}
+.contentBorder ul{
+    
 }
